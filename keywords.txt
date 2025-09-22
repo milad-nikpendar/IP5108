@@ -1,0 +1,85 @@
+#######################################
+# Syntax Coloring Map For IP5108
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+IP5108  KEYWORD1
+actionType_t    KEYWORD1
+PowerSetup_t    KEYWORD1
+PowerInput_t    KEYWORD1
+PowerStatus_t   KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin   KEYWORD2
+ready   KEYWORD2
+FlashLight  KEYWORD2
+Light   KEYWORD2
+Boost   KEYWORD2
+Charger KEYWORD2
+LightShutdown   KEYWORD2
+AutoPowerOn KEYWORD2
+LightShutdownCurrent    KEYWORD2
+ShutdownTime    KEYWORD2
+VinPullOutBOOST KEYWORD2
+NTC_Enable  KEYWORD2
+setDoublePressAction    KEYWORD2
+setLongPressAction  KEYWORD2
+ChargingVOUT    KEYWORD2
+BatteryType KEYWORD2
+BATChargingVoltage  KEYWORD2
+BatteryTypeVset KEYWORD2
+BATChargingCurrent  KEYWORD2
+BatteryVoltage  KEYWORD2
+BatteryOCVoltage    KEYWORD2
+BatteryCurrent  KEYWORD2
+Charging    KEYWORD2
+ChargingStatus  KEYWORD2
+Chgop   KEYWORD2
+ChargingEnd KEYWORD2
+ConstantVoltage KEYWORD2
+ChargingTimeout KEYWORD2
+TrickleChargeTimeout    KEYWORD2
+LightConnected  KEYWORD2
+LightNormalCurrent  KEYWORD2
+InputOvervoltage    KEYWORD2
+ButtonCurrent   KEYWORD2
+ButtonLongPress KEYWORD2
+ButtonShortPress    KEYWORD2
+battery_percentage  KEYWORD2
+update_setup    KEYWORD2
+update_inputs   KEYWORD2
+update_status   KEYWORD2
+
+#######################################
+# Constants and Macros (LITERAL1)
+#######################################
+Slave_address_IP5108    LITERAL1
+I2C_clock   LITERAL1
+SYS_CTL0    LITERAL1
+SYS_CTL1    LITERAL1
+SYS_CTL2    LITERAL1
+SYS_CTL3    LITERAL1
+SYS_CTL4    LITERAL1
+SYS_CTL5    LITERAL1
+CHARGER_CTL1    LITERAL1
+CHARGER_CTL2    LITERAL1
+CHG_DIG_CTL3    LITERAL1
+CHG_DIG_CTL4    LITERAL1
+Reg_READ0a  LITERAL1
+Reg_READ0b  LITERAL1
+Reg_READ1   LITERAL1
+Reg_READ2   LITERAL1
+MFP_CTL0    LITERAL1
+GPIO_CTL2a  LITERAL1
+GPIO_CTL2b  LITERAL1
+GPIO_CTL3   LITERAL1
+BATVADC_DAT0    LITERAL1
+BATVADC_DAT1    LITERAL1
+BATIADC_DAT0    LITERAL1
+BATIADC_DAT1    LITERAL1
+BATOCV_DAT0 LITERAL1
+BATOCV_DAT1 LITERAL1
